@@ -11,7 +11,7 @@ public class CustomerSearch {
  public static void main(String[] args) {
           
    List<Customer> customers = Customer.listCustomers();
-     // test b
+   // TEST1    
     if(args.length > 0){
       switch(args[0]) {
       case "under":

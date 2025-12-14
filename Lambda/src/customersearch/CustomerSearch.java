@@ -5,9 +5,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CustomerSearch {
-   
+   private void test() {
+	   return void;
+   }
  public static void main(String[] args) {
-           
+          
    List<Customer> customers = Customer.listCustomers();
      // test b
     if(args.length > 0){
